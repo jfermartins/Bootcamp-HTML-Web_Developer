@@ -31,10 +31,18 @@ console.log(lista.join(" - "));
 
 var fruta = {nome: "maça", cor: "vermelha"}
 console.log(fruta.nome);
-alert(fruta.cor);*/
+alert(fruta.cor);
 
 var frutas = [{nome: "maça", cor: "vermelha"}, {nome: "uva", cor: "roxa"}];
 console.log(frutas);
 alert(frutas[1].nome);
 
-console.log(frutas);
+console.log(frutas);*/
+
+var idade = 18;
+
+if(idade > 18) {
+    alert("Maior de idade");
+} else {
+    alert("Menor de idade");
+};
