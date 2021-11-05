@@ -39,12 +39,18 @@ alert(frutas[1].nome);
 
 console.log(frutas);*/
 
-/*var idade = prompt("Qual sua idade");
-
+/* Estrutura condicional IF/Else
+var idade = prompt("Qual sua idade");
 if(idade >= 18) {
     alert("Maior de idade");
 } else {
     alert("Menor de idade");
 }; */
 
-var count = 5;
+/* Estrutura de repetição While
+var count = 0;
+while (count <= 5) {
+    console.log(count);
+    alert(count);
+    count++;
+}; */
