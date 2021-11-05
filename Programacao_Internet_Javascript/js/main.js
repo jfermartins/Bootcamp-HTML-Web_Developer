@@ -54,3 +54,10 @@ while (count <= 5) {
     alert(count);
     count++;
 }; */
+
+/* Estrutura de repetição For 
+
+var count;
+for (count = 0; count <= 5; count++) {
+    alert (count);
+}; */
