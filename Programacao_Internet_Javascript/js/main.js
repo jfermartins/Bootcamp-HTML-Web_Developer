@@ -99,5 +99,33 @@ console.log(validaIdade(idade));
 
 function clicou() {
     /*alert("Obrigado por clicar!")*/
-    document.getElementById("agradecimento").innerHTML="Obrigado por clicar"
+    document.getElementById("agradecimento").innerHTML="Obrigado por clicar";
+}
+
+function redirecionar() {
+    /*abrir em outra janela */
+    window.open("https://github.com/jfermartins/Bootcamp-HTML-Web_Developer");
+    /*abrir na mesma janela */
+    window.location.href="https://github.com/jfermartins/Bootcamp-HTML-Web_Developer";
+}
+
+/*function trocar(){
+    document.getElementById("mousemove").innerHTML="Obrigado por passar o mouse";
+    alert("Trocar texto"); 
+}
+
+function voltar() {
+    document.getElementById("mousemove").innerHTML="Passe o mouse aqui";
+}*/
+
+function trocar(elemento){
+    elemento.innerHTML="Obrigada por passar o mouse";
+}
+
+function voltar(elemento){
+    elemento.innerHTML="Passe o mouse aqui";
+}
+
+function load() {
+    alert("Página carregada");
 }
