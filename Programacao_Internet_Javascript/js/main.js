@@ -129,3 +129,7 @@ function voltar(elemento){
 function load() {
     alert("Página carregada");
 }
+
+function funcaoChange(elemento) {
+    console.log(elemento.value);
+}
